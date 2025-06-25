@@ -1,0 +1,77 @@
+# CMake build artifacts
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+_compile_commands.json
+CPack*.cmake
+CTestTestfile.cmake
+
+# Visual Studio/MSBuild build artifacts
+*.sln
+*.vcxproj*
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.tlog
+*.vc.db
+*.ipch
+*.ncb
+*.obj
+*.log
+*.pch
+*.idb
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+*.iobj
+*.ipdb
+
+# Build directories
+/build
+/build*/
+
+# Generated folders and files
+/bin
+/bin*/
+/out
+/out*/
+/Debug
+/Release
+/x64
+/x86
+
+# Other common
+*.tmp
+*.log
+*.cache
+*.dir
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.code-workspace
+*.DS_Store
+*.vs
+
+# Conan or vcpkg package artifacts
+conanbuildinfo.*
+conaninfo.txt
+.conan/
+vcpkg_installed/
+
+doc/
