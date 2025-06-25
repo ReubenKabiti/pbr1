@@ -35,10 +35,6 @@ CTestTestfile.cmake
 *.iobj
 *.ipdb
 
-# Build directories
-/build
-/build*/
-
 # Generated folders and files
 /bin
 /bin*/
